@@ -1,12 +1,12 @@
-#include <stdio.h>
+#include <stdio.h> //Р’Р°СЂРёР°РЅС‚ 2
 #include <locale.h>
 
 void main()
 {
-	float n = 3., L = 335.;
+	float n = 3, L = 335;
 	setlocale(LC_ALL, "RUS");
-	printf("Дано:  %8d\n", n);
-	printf("%15d\n", L);
+	printf("Р”Р°РЅРѕ:  %8.0f\n", n);
+	printf("%15.0f\n", L);
 	puts("      _________");
-	printf("Ответ: %f", n/L);
+	printf("РћС‚РІРµС‚:+%f", n/L);
 }
